@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="js/script.js" defer></script>
+        <title>Chat Bot</title>
+    </head> 
+    <body class="show-chatbot">
+        <button class="chatbot-toggler">
+            <span class="material-icons-outlined">mode_comment</span>
+        </button>
+        <div class="chatbot">
+            <header>
+                <h2>Chatbot</h2>
+                <span class="material-icons-outlined">close</span>
+            </header>
+            
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <i class="material-icons-outlined">smart_toy</i>
+                    <p>Hi there 👋 <br> How can I help you today?</p>
+                </li>
+            </ul>
+
+            <div class="chat-input">
+                <textarea placeholder="Enter A Messagae..." required id="chattext"></textarea>
+                <span class="fa fa-send-o"></span>
+            </div>
+
+        </div>
+    </body>
+</html>
